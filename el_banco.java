@@ -12,12 +12,12 @@ public class el_banco
                 "для подсчёта процентов за два года - это минимальный срок вложения средств. ";
         System.out.println(b);
         Scanner sc = new Scanner(System.in);
-        int vklad = sc.nextInt();
-        double prs = (vklad / 100) * 13 * 2;
+        double vklad = sc.nextInt();
+        double prs = ((vklad / 100) * 13) * 2;
         double marga = vklad + prs;
-        String itog = "Ваш процент по вкладу в сумме " +vklad+ " рублей за два года " +
-                "составит " +prs+" рублей." +"\n" +
-                "Общая сумма вашего вклада таким образом составит " +marga+" рублей";
+        String itog = "Ваш процент по вкладу в сумме " + vklad + " рублей за два года " +
+                "составит " + prs +" рублей." +"\n" +
+                "Общая сумма вашего вклада таким образом составит " + marga +" рублей";
         System.out.println(itog);
         sc.close();
 
