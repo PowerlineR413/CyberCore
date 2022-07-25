@@ -19,13 +19,13 @@ public class los_animales
         switch (c)
         {
             case 1:
-                System.out.println("The Catz sayы Meow");
+                System.out.println("The Catz says Meow");
                 break;
             case 2:
-                System.out.println("The Mouse sayы Squeak");
+                System.out.println("The Mouse says Squeak");
                 break;
             case 3:
-                System.out.println("The Dog sayы Woof ");
+                System.out.println("The Dog says Woof ");
                 break;
             case 4:
                 System.out.println("The Elefant says Auuu");
